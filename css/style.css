@@ -38,4 +38,8 @@
     .main-header .navbar-nav .dropdown-menu {
         position: absolute;
     }
+    /* Sidebar */
+    .sidebar {
+        width: 65px;
+    }
 }
