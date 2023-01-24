@@ -13,20 +13,21 @@
     <!-- Header -->
     <header class="main-header">
         <!-- Navbar -->
-        <nav class="navbar bg-body-tertiary flex-nowrap">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <!-- Container -->
-            <div class="container-fluid column-gap-3">
+            <div class="container-fluid column-gap-2">
                 <!-- Immagine -->
                 <a class="navbar-brand" href="#">
                     <img src="./img/logo.svg" alt="Logo" width="130" height="30">
                 </a>
-                <!-- Barra di ricerca -->
-                <form class="d-flex flex-grow-1" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-                </form>
-                <!-- Lista -->
-                <div id="navbarNavDropdown">
-                    <ul class="navbar-nav flex-row column-gap-4">
+                <!-- Navigazione -->
+                <div class="collapse navbar-collapse column-gap-2" id="navbarSupportedContent">
+                    <!-- Barra di ricerca -->
+                    <form class="d-flex flex-grow-1" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </form>
+                    <!-- Lista -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 column-gap-2">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
                         </li>
@@ -36,16 +37,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
                         </li>
+                        <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell"></i>
                             </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Profilo</a></li>
-                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
-                      </li>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>

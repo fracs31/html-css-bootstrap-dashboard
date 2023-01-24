@@ -10,3 +10,12 @@
     min-height: 70px;
     background-color: wheat;
 }
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: auto!important;
+    right: 0px!important;
+}
