@@ -25,16 +25,6 @@
     right: 0px!important;
 }
 
-/* Logo grande */
-.logo-lg {
-    display: block;
-}
-
-/* Logo piccolo */
-.logo-sm {
-    display: none;
-}
-
 /* Sidebar */
 .sidebar {
     width: 145px;
@@ -44,20 +34,8 @@
 
 /* Tablet */
 @media (max-width: 992px) {
-    /* Elementi della lista della Navbar tranne quello per il dropdown */
-    .main-header .nav-item:not(.dropdown) {
-        display: none;
-    }
     /* Posizione del dropdown */
     .main-header .navbar-nav .dropdown-menu {
         position: absolute;
-    }
-    /* Logo grande */
-    .logo-lg {
-        display: none;
-    }
-    /* Logo piccolo */
-    .logo-sm {
-        display: block;
     }
 }
