@@ -1,8 +1,17 @@
 /* Regole generali */
+:root {
+    --dark-blue: #051E34;
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+/* Header */
+.main-header {
+    height: 70px;
 }
 
 /* Simbolo a destra della campanella per il dropdown */
@@ -24,6 +33,13 @@
 /* Logo piccolo */
 .logo-sm {
     display: none;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 145px;
+    background-color: var(--dark-blue);
+    background-image: url("../img/sidebar-bg.png");
 }
 
 /* Tablet */
