@@ -32,6 +32,11 @@
     background-image: url("../img/sidebar-bg.png");
 }
 
+/* Header del contenuto */
+.content-header {
+    height: 125px;
+}
+
 /* Tablet */
 @media (max-width: 992px) {
     /* Posizione del dropdown */
