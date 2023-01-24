@@ -4,3 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* Header */
+.main-header {
+    min-height: 70px;
+    background-color: wheat;
+}
