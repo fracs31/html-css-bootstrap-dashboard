@@ -13,15 +13,18 @@
     <!-- Header -->
     <header class="main-header">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg flex-nowrap">
             <!-- Container -->
             <div class="container-fluid column-gap-2">
                 <!-- Immagine -->
                 <a class="navbar-brand" href="#">
-                    <img src="./img/logo.svg" alt="Logo" width="130" height="30">
+                    <!-- Logo grande -->
+                    <img class="logo-lg" src="./img/logo.svg" alt="Logo" width="130" height="30">
+                    <!-- Logo piccolo -->
+                    <img class="logo-sm" src="./img/mobile-logo.png" alt="Logo" width="35" height="35">
                 </a>
                 <!-- Navigazione -->
-                <div class="collapse navbar-collapse column-gap-2" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse d-flex column-gap-2" id="navbarSupportedContent">
                     <!-- Barra di ricerca -->
                     <form class="d-flex flex-grow-1" role="search">
                         <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
@@ -39,7 +42,7 @@
                         </li>
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell"></i>
                             </a>
                             <ul class="dropdown-menu">
