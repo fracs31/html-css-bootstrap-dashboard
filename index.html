@@ -13,13 +13,41 @@
     <!-- Header -->
     <header class="main-header">
         <!-- Navbar -->
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary flex-nowrap">
             <!-- Container -->
-            <div class="container-fluid">
+            <div class="container-fluid column-gap-3">
                 <!-- Immagine -->
                 <a class="navbar-brand" href="#">
                     <img src="./img/logo.svg" alt="Logo" width="130" height="30">
                 </a>
+                <!-- Barra di ricerca -->
+                <form class="d-flex flex-grow-1" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+                <!-- Lista -->
+                <div id="navbarNavDropdown">
+                    <ul class="navbar-nav flex-row column-gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                </div>
             </div>
           </nav>
     </header>
