@@ -38,10 +38,8 @@
 }
 
 /* Pillola */
-.pill {
-    background-color: #165BBA;
-    border-radius: 999px;
-    padding: 5px 10px;
+.content-header .text-bg-primary {
+    background-color: #165BBA!important;
 }
 
 /* Offcanvas */
