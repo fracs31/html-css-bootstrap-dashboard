@@ -184,28 +184,98 @@
                                         <!-- Offcanvas Body -->
                                         <div class="offcanvas-body">
                                             <!-- Form -->
-                                            <form>
-                                                <div class="mb-3">
-                                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                            <form class="container-fluid">
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna nome -->
+                                                    <div class="col">
+                                                        <label for="name" class="form-label">Nome</label>
+                                                        <input class="form-control" type="text" id="name"> 
+                                                    </div>
+                                                    <!-- Colonna cognome -->
+                                                    <div class="col">
+                                                        <label for="surname" class="form-label">Cognome</label>
+                                                        <input class="form-control" type="text" id="surname">
+                                                    </div>
                                                 </div>
-                                                <div class="mb-3">
-                                                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna email -->
+                                                    <div class="col">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <div class="input-group">
+                                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                                            <input type="email" id="email" class="form-control" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Colonna password -->
+                                                    <div class="col">
+                                                        <label for="password" class="form-label">Password</label>
+                                                        <input class="form-control" type="password" id="password">
+                                                    </div>
                                                 </div>
-                                                <div class="mb-3 form-check">
-                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna indirizzo -->
+                                                    <div class="col">
+                                                        <label for="address" class="form-label">Indirizzo</label>
+                                                        <input class="form-control" type="text" id="address"> 
+                                                    </div>
                                                 </div>
-                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna città -->
+                                                    <div class="col-6">
+                                                        <label for="city" class="form-label">Città</label>
+                                                        <input class="form-control" type="text" id="city"> 
+                                                    </div>
+                                                    <!-- Colonna stato -->
+                                                    <div class="col-4">
+                                                        <label for="country" class="form-label">Stato</label>
+                                                        <select class="form-select" aria-label="Scegli" id="country">
+                                                            <option selected>Scegli...</option>
+                                                            <option value="1">Torino</option>
+                                                            <option value="2">Milano</option>
+                                                            <option value="3">Roma</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- Colonna cap -->
+                                                    <div class="col-2">
+                                                        <label for="cap" class="form-label">CAP</label>
+                                                        <input class="form-control" type="text" id="cap"> 
+                                                    </div>
+                                                </div>
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna foto -->
+                                                    <div class="col">
+                                                        <label for="formFile" class="form-label">Foto</label>
+                                                        <input class="form-control" type="file" id="formFile">
+                                                    </div>
+                                                </div>
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna checkbox -->
+                                                    <div class="col">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                            <label class="form-check-label" for="defaultCheck1">
+                                                                Seleziona per proseguire
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Riga -->
+                                                <div class="mb-3 row">
+                                                    <!-- Colonna bottoni -->
+                                                    <div class="col">
+                                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                                        <button type="reset" class="btn btn-warning">Svuota</button>
+                                                    </div>
+                                                </div>
                                             </form>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- Colonna -->
-                                <div class="col-auto">
-                                    
                                 </div>
                             </div>
                         </div>
