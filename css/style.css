@@ -32,6 +32,11 @@
     background-image: url("../img/sidebar-bg.png");
 }
 
+/* Lista sidebar */
+.sidebar .nav-item .nav-link:hover {
+    background-color: #c9c9c9;
+}
+
 /* Header del contenuto */
 .content-header {
     min-height: 125px;
@@ -56,5 +61,6 @@
     /* Sidebar */
     .sidebar {
         width: 65px;
+        align-items: center;
     }
 }
