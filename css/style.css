@@ -34,7 +34,7 @@
 
 /* Header del contenuto */
 .content-header {
-    height: 125px;
+    min-height: 125px;
 }
 
 /* Pillola */
