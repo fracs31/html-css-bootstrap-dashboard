@@ -28,6 +28,7 @@
 /* Sidebar */
 .sidebar {
     width: 145px;
+    height: 100%;
     background-color: var(--dark-blue);
     background-image: url("../img/sidebar-bg.png");
 }
@@ -35,6 +36,11 @@
 /* Lista sidebar */
 .sidebar .nav-item .nav-link:hover {
     background-color: #c9c9c9;
+}
+
+/* Main */
+.main-content {
+    height: calc(100vh - 70px);
 }
 
 /* Header del contenuto */
