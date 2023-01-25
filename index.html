@@ -118,7 +118,7 @@
         <!-- Contenuto -->
         <div class="content flex-grow-1">
             <!-- Header del contenuto -->
-            <div class="content-header bg-primary text-white">
+            <div class="content-header bg-primary text-white py-3">
                 <!-- Container -->
                 <div class="container-fluid">
                     <!-- Riga -->
@@ -152,11 +152,13 @@
                             <div class="row flex-column">
                                 <!-- Colonna -->
                                 <div class="col-auto">
-                                    
+                                    <!-- Titolo -->
+                                    <h2 class="fs-6">Studenti online negli ultimi 30 minuti</h2>
                                 </div>
                                 <!-- Colonna -->
                                 <div class="col-auto">
-                                    
+                                    <!-- Numero studenti -->
+                                    <p class="fs-1">125</p>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +168,21 @@
                             <div class="row flex-column">
                                 <!-- Colonna -->
                                 <div class="col-auto">
-                                    
+                                    <!-- Titolo -->
+                                    <h2 class="fs-6">Nuovo studente</h2>
+                                    <!-- Offcanvas -->
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                        Toggle right offcanvas
+                                    </button>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                        <div class="offcanvas-header">
+                                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div class="offcanvas-body">
+                                            ...
+                                        </div>
+                                    </div>
                                 </div>
                                 <!-- Colonna -->
                                 <div class="col-auto">
